@@ -1,0 +1,36 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+body {
+    color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+    // font-family: 'SFProDisplay';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 17px;
+}
+
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
